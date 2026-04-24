@@ -125,6 +125,109 @@ header {
     cursor: pointer;
 }
 
-.year-icon {
+.address {
+    margin: 0 5px 100px 5px;
     text-align: center;
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.1) 0%, rgba(255, 0, 0, 0) 100%);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 30px;
+}
+
+.address > div p {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.address > div p span {
+    color: #FF0000;
+}
+
+.address div > button {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    padding: 16px 32px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.offer {
+    margin: 0 20px 100px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-offer {
+    max-width: 400px;
+}
+
+
+.offer-subtitle {
+    font-weight: 400;
+    font-size: 24px;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+.offer-title {
+    font-weight: 500;
+    font-size: 48px;
+    color: #070211;
+    margin-bottom: 22px;
+}
+
+.offer-description {
+    font-weight: 300;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.offer .year span {
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.offer-img {
+    border: 15px solid #FF0000;
+    border-radius: 50%;
+    padding: 20px;
+    width: 465px;
+    height: 465px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.offer-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.year {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    /* margin-left: auto;
+    width: auto; */
+    
+}
+
+.year img {
+    width: fit-content;
+}
+.year-description {
+    font-weight: 300;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    margin:16px 0 43px;
+    max-width: 250px;
 }
