@@ -231,3 +231,97 @@ header {
     margin:16px 0 43px;
     max-width: 250px;
 }
+.holiday {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5px 100px;
+}
+
+.holiday-content {
+    max-width: 1068px;
+    text-align: center;
+}
+.holiday-subtitle {
+    font-weight: 500;
+    font-size: 24px;
+    color: #070211;
+}
+
+.holiday-title {
+    font-weight: 600;
+    font-size: 72px;
+    color: #070211;
+    margin:16px 0 18px;
+}
+
+.holiday-title > span {
+    color: #FF0000;
+}
+
+.holiday-description {
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+}
+.holiday-discounts {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 150px;
+    margin-top: 64px;
+    align-self: stretch;
+    gap: 230px;
+    background-image: url('/images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.discount-box {
+    max-width: 675px;
+}
+
+.discount-box img {
+    width: 100%;
+    
+}
+
+.gifts {
+    margin: 0 5px 100px;
+}
+
+.portfolio-subtitle{
+    font-weight: 600;
+    font-size: 24px;
+    color: #FF0000;
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 48px;
+    margin: 16px 0 22px;
+}
+
+.portfolio-description {
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    max-width: 700px;
+}
+
+
+
+.gift-items {
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.gift-item {
+    flex: 1 1 calc((100% - 48px)/3);
+}
+
+.gift-item img {
+    width: 100%;
+    height: 100%;
+}
