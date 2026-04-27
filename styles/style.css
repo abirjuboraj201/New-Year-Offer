@@ -382,3 +382,39 @@ header {
     border-top-right-radius: 50px;    
     border-bottom-right-radius: 50px;    
 }
+
+
+.footer {
+    background-color: #070211;
+    color: #FFFFFF;
+    padding: 120px 140px;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.footer-head {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 135px;
+    margin-bottom: 50px;
+}
+
+.footer-head-contact .contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-social {
+    text-align: center;
+    margin: 48px 0;
+}
+
+.footer-social img {
+    margin-right: 24px;
+}
+
+.footer-rights {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
